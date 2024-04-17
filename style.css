@@ -1,0 +1,37 @@
+* {
+    font-family: sans-serif;
+}
+body {
+    width: 60%;
+    color: #F5F4B3;
+    background: linear-gradient(#5D4975, black);
+}
+p {
+    text-indent: 1em;
+}
+h1 {
+    font-size: 1.8rem;
+    text-align: center;
+    color: #FAD8A0;
+    background-color: #211033;
+    padding: 8px;
+}
+h2 {
+    font-size: 1.4rem;
+    text-align: center;
+    color: #FAD8A0;
+}
+h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #FAD8A0;
+}
+#zen-summary {
+    text-align: right;
+}
+#zen-supporting p {
+    line-height: 1.5;
+}
+abbr {
+    font-family: small-caps;
+}
