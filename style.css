@@ -80,3 +80,25 @@ footer a {
    left: 65%; 
    padding-inline: 2%;
 }
+a {
+    color: blue;
+    font-weight: bold;
+}
+a:hover {
+    color: aquamarine;
+}
+a:visited {
+    font-weight: normal;
+    color:blueviolet;
+}
+.explanation p:first-of-type::first-letter {
+    font-size: 300%;
+    font-family: 'Brush Script MT', cursive;
+    float: left;
+} 
+.design-selection li {
+    border-top: 1px solid white;
+}
+.design-selection li:last-child {
+    border-bottom: 1px solid white;
+}
