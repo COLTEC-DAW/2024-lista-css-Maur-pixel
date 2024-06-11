@@ -60,27 +60,21 @@ li {
 }
 footer {
     display: flex;
-<<<<<<< HEAD
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
-=======
     flex-flow: row wrap;
     align-items: center;
     justify-content: space-around;
->>>>>>> 1d34d300d65eb2eff9b077a7d1ff0dbc44951597
     background: white;
 }
 footer a {
     flex-basis: 50px;
     text-align: center;
-<<<<<<< HEAD
     border: 2px solid black;
     padding: 0.5em;
-=======
     border: 2px solid yellow;
-    padding: 0.5em
->>>>>>> 1d34d300d65eb2eff9b077a7d1ff0dbc44951597
+    padding: 0.5em;
 }
 .page-wrapper {
     position: relative;
@@ -97,25 +91,6 @@ footer a {
    left: 65%; 
    padding-inline: 2%;
 }
-<<<<<<< HEAD
-.benefits {
-    display: flex;
-    flex-direction: column;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-}
-.benefits h3 {
-    flex-grow: 3;
-    align-self: flex-end;
-}
-.benefits p {
-    flex-grow: 7;
-    align-self: flex-start;
-}
-.participation { display: flex; flex-direction: column; border-top: 1px solid white; }
-.participation h3 { flex-grow: 1; align-self: center; }
-.participation p { flex-grow: 1; }
-=======
 a {
     color: blue;
     font-weight: bold;
@@ -165,4 +140,34 @@ a:visited {
     flex: 0 1 50%;
     padding: 0.3em;
 }
->>>>>>> 1d34d300d65eb2eff9b077a7d1ff0dbc44951597
+@media screen and (max-width: 768px) {
+    .design-selection {
+        position: initial;
+    }
+    .explanation {
+        border-right: none;
+    }
+    .participation {
+        display: flex;
+        flex-direction: column;
+    }
+    header {
+        height: auto;
+    }
+    p {
+        text-indent: 0em;
+    }
+}
+@media print {
+    * {
+        font-family: 'Times New Roman', Times, serif;
+    }
+    body {
+        background-color: #F5F4B3;
+        color: #211033;
+    }
+    header {
+        background: #F5F4B3;
+        color: #211033;
+    }
+}
