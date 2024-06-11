@@ -59,11 +59,17 @@ li {
     text-align: center;
 }
 footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
     background: white;
 }
 footer a {
-    border: 2px solid yellow;
-    padding: 0.5em
+    flex-basis: 50px;
+    text-align: center;
+    border: 2px solid black;
+    padding: 0.5em;
 }
 .page-wrapper {
     position: relative;
@@ -76,7 +82,24 @@ footer a {
 }
 .design-selection {
    position: absolute; 
-   top: 22%; 
+   top: 20%; 
    left: 65%; 
    padding-inline: 2%;
 }
+.benefits {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.benefits h3 {
+    flex-grow: 3;
+    align-self: flex-end;
+}
+.benefits p {
+    flex-grow: 7;
+    align-self: flex-start;
+}
+.participation { display: flex; flex-direction: column; border-top: 1px solid white; }
+.participation h3 { flex-grow: 1; align-self: center; }
+.participation p { flex-grow: 1; }
